@@ -1,0 +1,146 @@
+******************************************Algoritmo Sándwich*********************************************
+
+//  Entrada //
+
+Pan
+Queso
+Jamón
+Tomate
+Lechuga
+Aderezo
+Cuchillo
+Plato
+Jabón
+
+// Proceso //
+1.	Revisión de ingredientes y herramientas.
+      a.	Cuchillo
+      b.	Platos
+      c.	Ingredientes Refrigerados.
+      d.	Ingredientes Secos.
+2.	Sacar un cuchillo y  un plato.
+3.	Rebanar el pan en dos mitades de  forma horizontal, colocarlo sobre el plato con la corteza para abajo.
+4.	Agregar Aderezos en la mitad o en las mitades. 
+5.	Rebanar los ingredientes en caso de ser necesario: 
+a.	Jamón
+b.	Tomate
+c.	Lechuga
+d.	Queso
+e.	Otros
+6.	Insertar el jamón junto a los ingredientes en alguna de las dos mitades.
+7.	Coloca la mitad del pan vacía, sobre la que tiene ingredientes.
+8.	Comer el sándwich de la manera que consideres correcta.
+9.	Disfrutar!
+
+// Salida //
+El mejor Sándwich de tu vida!
+
+
+**********************************************Algoritmo Cambio de Rueda*******************************************
+// Pre Requisitos // 
+Tener un Auto.
+Tener un problema con solo una de las ruedas.
+Tener Rueda de Auxilio en condiciones.
+Tener Llave de Repuesto.
+Tener la Gata en condiciones.
+Tener Chaleco Reflectante.
+Tener Triangulo de Seguridad.
+Los pernos de la ruedan deben estar en un estado aceptable.
+El Vehículo debe estar en un lugar seguro para el cambio.
+Entrada
+Auto.
+Rueda de Repuesto.
+Llave Cruz.
+Chaleco Reflectante
+Triangulo de Seguridad.
+Gata.
+
+// Proceso // 
+
+10.	Encender las balizas del Auto.
+11.	Poner el Freno de Marcha.
+12.	Apagar el Auto.
+13.	Colocarse el chaleco Reflectante.
+14.	Bajar del vehículo, colocar el tranquilo de seguridad a la distancia requerida por la ley.
+15.	Revisar si efectivamente hay un problema con la rueda.
+16.	Vamos al lugar del auto que tenga los implementos para el cambio.
+17.	Retiramos los elementos en el orden que disponga el auto.
+18.	Sacar lo elementos. Rueda, Llave, etc.
+19.	Segundo Check de la Rueda de Auxilio.
+20.	Aflojar los pernos en el suelo, con la llave cruz.
+21.	Colocar gata en posición.
+22.	Revisar si la gata está colocada en la forma correspondiente.
+23.	Elevar la Gata con la llave.
+24.	Una vez en la altura adecuada, retiramos los pernos, colándolos en un lugar a la vista.
+25.	Quitar la rueda que presenta desperfectos.
+26.	Colocar la rueda de Auxilio.
+27.	Colocar y ajustar los pernos.
+28.	Descender el auto con la gata.
+29.	Retirar la Gata.
+30.	Ajustar los pernos. Chequear si están ajustados de la forma correcta.
+31.	Guardar los elementos.
+32.	Quitar el triángulo de seguridad. Guardarlo en su lugar.
+33.	Subirse al auto. 
+34.	Quitarse el Chaleco.
+35.	Ponerse el cinturón.
+36.	Quitar las Balizas y el freno.
+37.	Ir a tu destino!
+
+// Salida // 
+Un auto Seguro!
+
+
+*********************************** Algoritmo Cambio de Pañales ************************************************
+
+// Pre Requisitos // 
+Un bebe a cambiar.
+Él bebe tiene que haber excretado alguna necesidad fisiológica.
+Un lugar seguro y limpio para el Cambio.
+
+Entrada
+Pañales.
+Toallitas.
+Manta
+Basurero
+Proceso
+
+Poner la manta en la superficie adecuada.
+Poner a disposición los elementos.
+Recostamos al bebe en la superficie
+Retirar la parte de la prenda del bebe que sea necesaria.
+Desabrochar el pañal.
+Retirar el pañal.
+Limpiar al bebé.
+Tirar el Pañal Sucio.
+Colocar el pañal nuevo.
+Colocar Talco en caso de ser necesario.
+Cerrar el Pañal.
+Colocar la ropa
+
+Salida
+Un bebé limpio!
+
+Algoritmo Cambio de Contraseña
+Pre Requisitos
+Una cuenta de correo.
+Opción válida para cambiar la contraseña.
+Tener una cuenta de resplado
+Entrada
+PC – TABLET – TELEFONO.
+Conexión a internet.
+Proceso
+
+Ingresar a la plataforma de correo.
+Ingresar a la opción de cambiar:
+Poner la contraseña vieja.
+Colocar una contraseña válida
+Restablecer la contraseña:
+Tener el correo de restablecimiento.
+
+
+Salida
+Un bebé limpio!
+
+
+
+
