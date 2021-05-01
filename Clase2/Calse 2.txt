@@ -1,0 +1,199 @@
+***************Algoritmo Compra Virtual***************************
+
+
+Ejercicio:
+Elaborar un algoritmo para una compra en una tienda virtual
+
+
+////Pre Requisitos///
+Dispositivo como PC-TELEFONO.
+Conexión a Internet.
+Tener usuario y contraseña.
+Poseer un método de pago válido.
+
+///Entrada///
+
+Dispositivo como PC-TELEFONO.
+Conexión a Internet.
+Tener usuario y contraseña.
+método de pago válido.
+
+//////Proceso//////
+
+1.	Conectarse al sitio con usuario y contraseña.
+2.	Ir a la página del producto.
+3.	Agregar el producto al carrito de compra.
+4.	En el carrito hacer click en el botón Comprar.
+5.	En la página de confirmación de datos, llenamos información en caso de ser necesario.
+6.	Agregamos y confirmamos método de pago.
+7.	Ingresamos al sitio de nuestro Banco. Llenamos los Datos.
+8.	Confirmamos la compra.
+9.	Descargamos el pedido en PDF. 
+
+///Salida///
+Una compra online!
+
+
+
+***************Algoritmo Compra Virtual 2.0********************
+
+/////Pre Requisitos////
+Dispositivo como PC-TELEFONO.
+Conexión a Interntet.
+Tener usuario y contraseña.
+Poseer un método de pago válido.
+
+///////Entrada//////
+Dispositivo como PC-TELEFONO.
+Conexión a Interntet.
+Tener usuario y contraseña.
+método de pago válido.
+
+////Proceso/////
+
+Variables:
+1.	Dirección
+2.	N° de boleta.
+3.	N° de envio.
+
+CONSTANTES:
+1.	int(Tarjeta de Crédito/Débito)
+2.	String(Usuario)
+3.	String(Contraseña)
+4.	Int()
+
+
+//////Proceso//////
+
+1.	Conectarse al sitio con usuario y contraseña.
+2.	Ir a la página del producto.
+3.	Agregar el producto al carrito de compra.
+4.	En el carrito hacer click en el botón Comprar.
+5.	En la página de confirmación de datos, llenamos información en caso de ser necesario.
+6.	Agregamos y confirmamos método de pago.
+7.	Ingresamos al sitio de nuestro Banco. Llenamos los Datos.
+8.	Confirmamos la compra.
+9.	Descargamos el pedido en PDF. 
+
+///Salida///
+Una compra online!
+
+
+
+•	Ejercicio grupal 1: Buscar tipos de datos primitivos en Java, explicar que es y ejemplos de los mismos.
+
+¿Qué es un dato primitivo?
+
+	El lenguaje de programación Java tiene un tipo estático, lo que significa que todas las variables deben declararse primero antes de que puedan usarse. Esto implica indicar el tipo y el nombre de la variable, como ya ha visto:
+
+int engranaje = 1;
+
+	Si lo hace, le indicará a su programa que existe un campo llamado "engranaje", que contiene datos numéricos y que tiene un valor inicial de "1".
+
+	El tipo de datos de una variable determina los valores que puede contener, además de las operaciones que se pueden realizar en ella. Además de int, el lenguaje de programación Java admite otros siete tipos de datos primitivos. Un tipo primitivo está predefinido por el idioma y se nombra mediante una palabra clave reservada. Los valores primitivos no comparten estado con otros valores primitivos
+. Los ocho tipos de datos primitivos admitidos por el lenguaje de programación Java son:
+
+Byte
+
+Representa un tipo de dato de 8 bits con signo. De tal manera que puede almacenar los valores numéricos de -128 a 127 (ambos inclusive).
+Short
+Representa un tipo de dato de 16 bits con signo. De esta manera almacena valores numéricos de -32.768 a 32.767.
+Int
+Es un tipo de dato de 32 bits con signo para almacenar valores numéricos. Cuyo valor mínimo es -231 y el valor máximo 231-1.
+Long
+Es un tipo de dato de 64 bits con signo que almacena valores numéricos entre -263 a 263-1
+Float
+Es un tipo dato para almacenar números en coma flotante con precisión simple de 32 bits.
+Double
+Es un tipo de dato para almacenar números en coma flotante con doble precisión de 64 bits.
+Boolean
+Sirve para definir tipos de datos booleanos. Es decir, aquellos que tienen un valor de true o false. Ocupa 1 bit de información.
+Char
+Es un tipo de datos que representa a un carácter Unicode sencillo de 16 bits.
+
+Los tipos de datos primitivos se pueden organizar en 4 grupos:
+
+•	Numéricos enteros: Son los tipos byte, short, int y long. Los 4 representan números enteros con signo.
+•	Carácter: El tipo char representa un carácter codificado en el sistema unicod.
+•	Numérico decimal: Los tipos float y double representan números decimales en coma flotante.
+•	Lógicos: El tipo boolean es el tipo de dato lógico; los dos únicos posibles valores que puede representar un dato lógico son true y false. true y false son palabras reservadas de Java.
+
+Ejemplos de datos primitivos en Java
+
+ 
+	Otro ejemplo a mencionar dentro del día a día, puede ser que al momento de realizar una operación matemática al mediante este lenguaje de programación, si el resultado de esta se encuentra dentro del rango de valores de -128 a 127, este resultado correspondería a un byte, en cambio si se escapa tanto por su limite superior como inferior de dicho rango, correspondería a una función short o int, o alguna que soporte la cantidad numérica obtenida como resultado.
+   
+     -----------------------------------------------------------------------------------------------------------------------------------------
+
+•	Ejercicio grupal 2: Crear un algoritmo que permita realizar una liquidación de sueldo, identificar entradas, salidas, procesos, variables, constantes y tipos de datos.
+                                       ----------------------------------
+
+TEXTO
+
+Constante
+
+Nombre empresa
+Rut empresa
+Dirección empresa
+Mutual de seguridad
+Sueldo base
+Colación y Movilización
+Dsco. Fonasa 7%
+Seguro de cesantía
+
+Variable
+
+Fecha
+Nombre empleado
+Rut empleado
+Dirección empleado
+Cargo
+Fecha ingreso persona
+Caja de compensación
+Código interno de la persona ID.
+Bonos
+% Impuesto a la renta
+AFP
+
+VALORES
+
+Variables
+
+Dias trabajadps
+Días Ausentes
+Días Licencia
+Sueldo Base
+Gratificación
+Movilización
+Colación
+Monto Descuento AFP/FONASA
+Seguro de cesantía
+Boolean (Imp. A la Renta)
+Monto Impuesto a la renta
+
+
+
+
+
+•	Ejercicio grupal 3: Crear un algoritmo que permita realizar una boleta electrónica, identificar entradas, salidas, procesos, variables, constantes y tipos de datos.
+
+
+--------------------------
+DATOS CONSTANTE:
+
+NOMBRE PERSONA
+RUT DE LA PERSONA
+DSCTO 11.5% DE LA BOLETA
+
+DATOS VARIABLE:
+
+NOMBRE AL CUAL SE EMITE LA BOLETA
+DIRECCION SE EMITE LA BOLETA
+NUMERO DE LA BOLETA
+MOTIVO POR EL CUAL SE EMITE
+FECHA EMISION BOLETAR EL CUAL SE EMITE LA BOLETA
+CODIGO BARRA EMITIDO POR EL SII
+EL TIPO GIRO
+
+
+
