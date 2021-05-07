@@ -1,0 +1,12 @@
+Algoritmo _Ignacio_CAVALLO
+	escribir metros
+	leer metros
+	pulgadasAmetros<-metros/0.0254
+	Imprimir Necesita,  pulgadasAmetros
+	
+	
+	
+FinAlgoritmo
+
+//REALIZADO POR Ignacio Cavallo
+

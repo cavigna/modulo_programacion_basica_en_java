@@ -1,0 +1,13 @@
+Algoritmo lapices_a_pagar_Ignacio_CAVALLO
+	Escribir cantidadLapices
+	leer cantidadLapices
+		
+		si cantidadLapices>=1000
+			cantidadApagar = cantidadLapices * 85
+		sino 
+			cantidadApagar = cantidadLapices * 90
+		FinSi
+	
+	Imprimir "Su monto a pagar es :" cantidadApagar
+	//REALIZADO POR Ignacio Cavallo
+FinAlgoritmo

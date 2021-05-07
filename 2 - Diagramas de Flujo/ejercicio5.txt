@@ -1,0 +1,24 @@
+Algoritmo uvita_loca_Ignacio_CAVALLO
+	Leer tipoUva
+	si tipoUva Es Igual A "A"
+		si tamañoUva  es igual a 1
+			precioFinal = precioInical + 20
+		SiNo
+			precioFinal = precioInical +30
+		FinSi
+	SiNo
+		si tamañoUva es igual a 1
+			precioFinal = precioInical-30
+		SiNo
+			precioFinal = precioInical -50
+		
+			
+		FinSi
+	FinSi
+	ingresosObtenidos = kgUvas * precioFinal	
+	
+	//REALIZADO POR Ignacio Cavallo
+	
+	Imprimir "Según el tipo y tamaño de uva, sus ingresos son:" ingresosObtenidos
+	
+FinAlgoritmo

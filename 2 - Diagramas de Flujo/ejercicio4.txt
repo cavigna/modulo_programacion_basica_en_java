@@ -1,0 +1,14 @@
+Algoritmo la_langosta_ahumada_Ignacio_CAVALLO
+	leer cantidadComensales
+	Segun cantidadComensales Hacer		
+		cantidadComensales<200 y cantidadComensales>=300:
+			costoXpersona = 8500
+		cantidadComensales>300:
+			costoXpersona = 7500
+		De Otro Modo:
+			costoXpersona = 9500
+	Fin Segun
+	costoTotal = costoXpersona *cantidadComensales
+	//REALIZADO POR Ignacio Cavallo
+	imprimir "Su costo total sera de " costoTotal
+FinAlgoritmo
