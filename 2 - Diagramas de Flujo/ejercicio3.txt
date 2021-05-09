@@ -1,0 +1,19 @@
+Algoritmo harapiento_distinguido_Ignacio_CAVALLO
+
+	leer precioOriginal
+	
+	si precioOriginal >250000
+		descuento = precioOriginal * 0.15
+		precioFinal = precioOriginal - descuento
+		
+	SiNo
+		descuento = precioOriginal * 0.08
+		precioFinal = precioOriginal - descuento
+				
+	FinSi
+	//REALIZADO POR Ignacio Cavallo
+	Imprimir "El costo es de " precioOriginal "menos un descuento de" descuento "por lo tanto, su traje queda a un precio de " precioFinal
+	
+
+	
+FinAlgoritmo
