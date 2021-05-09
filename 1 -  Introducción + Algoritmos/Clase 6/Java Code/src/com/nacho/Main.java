@@ -116,6 +116,7 @@ public class Main {
         System.out.println();
         System.out.println("El mayor número es: " + respuesta4[0]);
         System.out.println("El mayor número es: " + respuesta4[1]);
+        System.out.println("----------------------------------");
 
     }
 }
