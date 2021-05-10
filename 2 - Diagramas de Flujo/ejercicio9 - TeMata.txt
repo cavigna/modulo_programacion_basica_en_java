@@ -1,0 +1,27 @@
+Algoritmo teMata_IgnacioCavallo
+	leer numeroCita
+	leer costoCita
+	leer costoTotal
+	segun numeroCita hacer
+		numeroCita>=3:
+			costoCita = numeroCita * 200
+			costoTotal = costoCita
+			
+		numeroCita<=5:
+			costoCita = numeroCita * 150
+			costoTotal = costoCita + 600
+			
+		numeroCita<=8:
+			costoCita = numeroCita * 100
+			costoTotal = costoCita + 1050
+			
+		numeroCita>=10:
+			costoCita = numeroCita * 100
+			costoTotal = costoCita + 1250
+	FinSegun
+	
+	Imprimir "El valor de la cita es " costoCita
+	Imprimir " El valor total de las citas es"  costoTotal
+	
+	//Realizado por Ignacio Cavallo
+FinAlgoritmo

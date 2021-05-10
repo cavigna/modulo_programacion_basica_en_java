@@ -1,0 +1,37 @@
+Algoritmo elCometa_IgnacioCavallo
+	leer clave
+	leer costoProduccion
+	leer materiaPrima
+	leer manoObra
+	leer gastosFabricación
+	leer precioVenta
+		
+	// manoObra
+	Segun clave hacer
+		clave ==5 || clave ==1:
+			manoObra = materiaPrima * .80
+		clave ==3 | clave ==4:
+			manoObra = materiaPrima * .75
+		De Otro Modo:
+			manoObra = materiaPrima * .85
+			
+	FinSegun
+	
+	//Gs Fabricación
+	Segun clave hacer
+		clave ==5 | clave ==2:
+			gastosFabricación = materiaPrima * .30
+		clave ==6 | clave ==3:
+			gastosFabricación = materiaPrima * .35
+		De Otro Modo:
+			gastosFabricación = materiaPrima * .28
+			
+	FinSegun
+	
+	costoProduccion = materiaPrima + manoObra + gastosFabricación	
+	
+	precioVenta = precioVenta * 1.45
+	
+	Imprimir  "El precio de venta para el articulo es:" precioVenta
+	//Realizado por Ignacio Cavallo
+FinAlgoritmo

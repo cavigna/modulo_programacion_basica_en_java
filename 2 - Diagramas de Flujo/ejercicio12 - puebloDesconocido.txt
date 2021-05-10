@@ -1,0 +1,37 @@
+Algoritmo puebloDesconocido_IgnacioCavallo
+	Leer tipo
+	leer limite
+	leer cantidadTarjetas
+	leer tiposdetarjeta
+	leer tarjetaMax
+	
+	// Check cantidad de Tarjetas
+	//Asignar Mayor valor a 
+	si cantidadTarjetas>1
+		Para i=0 Hasta cantidadTarjetas
+			si (i+1>i)
+				tarjetaMax = tipo
+			FinSi	
+			
+		FinPara
+	FinSi
+	
+
+	
+	Segun tipo hacer
+		tipo ==1:
+			limite = 25
+		tipo == 2:
+			limite = 35
+		tipo == 3:
+			limite = 40
+		De Otro Modo:
+			
+
+	
+	FinSegun
+	
+	// Realizado por Ignacio Cavallo
+	Imprimir " Su nuevo límite tiene un aumento de : " limite "%"
+	
+FinAlgoritmo

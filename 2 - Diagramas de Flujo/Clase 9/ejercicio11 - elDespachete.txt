@@ -1,0 +1,27 @@
+Algoritmo elDespachete_IgnacioCavallo
+	leer peso
+	leer zona
+	leer costo
+	
+	Segun zona hacer
+			zona = 1 && peso >5000:
+				costo = peso *110;
+			zona = 2 & peso >5000:
+				costo = peso *100;
+			zona = 3 & peso >5000:
+				costo = peso *120;
+			zona = 4 & peso >5000:
+				costo = peso *240;
+			zona = 5 & peso >5000:
+				costo = peso *270;
+            De Otro Modo:
+				Imprimir "Paquete no válido"
+            
+	FinSegun
+	
+	// Realizado por Ignacio Cavallo
+	
+	Imprimir " El costo de envio es de: " costo
+
+	
+FinAlgoritmo

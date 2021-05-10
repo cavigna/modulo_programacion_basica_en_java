@@ -22,10 +22,10 @@ Algoritmo ChismeFeón_IgnacioCavallo
 			costoTotal =	500 + ((cantidadMinutos -5) * 80)
 			
 		cantidadMinutos>=8 y cantidadMinutos<=10:
-			costoTotal =	740 + ((cantidadMinutos -10) * 5)
+			costoTotal =	740 + ((cantidadMinutos -8) * 70)
 			
 		cantidadMinutos>=10:
-			costoTotal =	880 + ((cantidadMinutos -10) * 5)
+			costoTotal =	880 + ((cantidadMinutos -10) * 50)
 			
 	FinSegun
 	
