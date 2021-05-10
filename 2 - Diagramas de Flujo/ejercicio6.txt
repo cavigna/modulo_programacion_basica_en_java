@@ -1,0 +1,19 @@
+Algoritmo viaje_de_estudio_Ignacio_Cavallo
+	leer cantidadAlumnos
+	Segun cantidadAlumnos Hacer
+		cantidadAlumnos>=100:
+			costoTotal =cantidadAlumnos * 6500
+			
+		cantidadAlumnos>=99 y cantidadAlumnos<=50:
+			costoTotal =cantidadAlumnos *7000
+			
+		
+		cantidadAlumnos>=49 y cantidadAlumnos<=30:
+			costoTotal =cantidadAlumnos *9500		
+			
+		De Otro Modo:
+			costoTotal = 40000
+	Fin Segun
+	Imprimir " El costoTotal es de:" costoTotal
+	//REALIZADO POR Ignacio Cavallo
+FinAlgoritmo

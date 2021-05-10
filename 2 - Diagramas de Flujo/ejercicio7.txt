@@ -1,0 +1,50 @@
+// Chismefeon
+// 1 - Primeros 5 min   ==> 100 p/min
+// 2 - Siguientes 3 min ==> 80 p/min
+// 3 - Siguientes 2 min ==> 80 p/min
+// 4 - Mayor de 10 min == >50 p/min
+// Dia Hábil - Matutino 15% Vespertino 10%
+// Domingo - 3%
+
+
+Algoritmo ChismeFeón_IgnacioCavallo
+	leer cantidadMinutos
+	leer costoTotal
+	leer costoPorMinuto
+	leer diaHabil
+	leer sobrecargoHabil
+	
+	Segun cantidadMinutos Hacer
+		
+		cantidadMinutos<=5:
+			costoTotal = costoPorMinuto * 100
+		cantidadMinutos>=5 y cantidadMinutos<=8:
+			costoTotal =	500 + ((cantidadMinutos -5) * 80)
+			
+		cantidadMinutos>=8 y cantidadMinutos<=10:
+			costoTotal =	740 + ((cantidadMinutos -10) * 5)
+			
+		cantidadMinutos>=10:
+			costoTotal =	880 + ((cantidadMinutos -10) * 5)
+			
+	FinSegun
+	
+	Si diaHabil
+		si (sobrecargoHabil == "Matutino")
+			costoTotal = costoTotal * 1.15
+		SiNo
+			costoTotal = costoTotal * 1.10		
+		FinSi
+		
+	SiNo
+		costoTotal = costoTotal *1.03
+			
+		
+	FinSi
+	
+	Imprimir " El costo de la llamada es de:"  costoTotal
+		
+	
+	
+	
+FinAlgoritmo

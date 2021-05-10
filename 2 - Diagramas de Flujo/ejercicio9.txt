@@ -1,0 +1,25 @@
+Algoritmo naufragoSatisfecho_IgnacioCavallo
+	leer tipoHamburguesa
+	leer tarjeta
+	leer costo
+	leer cantidadHamburgesas
+	
+	segun tipoHamburguesa
+		tipoHamburguesa igual "sencilla":
+			costo = cantidadHamburgesas * 2000
+			
+		tipoHamburguesa igual "doble":
+			costo = cantidadHamburgesas * 2500
+			
+		tipoHamburguesa igual "triple":
+			costo = cantidadHamburgesas * 2800
+	FinSegun
+	
+	si tarjeta
+		costo = costo * 1.05
+	FinSi
+	
+	Imprimir "Para" cantidadHamburgesas "el total es de" costo
+	//Realizado por Ignacio Cavallo
+	
+FinAlgoritmo

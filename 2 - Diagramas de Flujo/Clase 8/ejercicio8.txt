@@ -1,0 +1,48 @@
+
+Algoritmo ViajeBus_IgnacioCavallo
+	leer tipoAutobus
+	leer cantidadPasajeros
+	Leer costoTotal
+	leer costoPasajero
+	
+	si cantidadPasajeros>20
+		Segun tipoAutobus hacer
+			autobus igual "A":
+				costoTotal = cantidadPasajeros *200
+				
+			autobus igual "B":
+				costoTotal = cantidadPasajeros *250
+				
+			autobus igual "C":
+				costoTotal = cantidadPasajeros *300	
+				
+		FinSegun
+	SiNo
+		Segun tipoAutobus hacer
+			autobus igual "A":
+				costoTotal = 20 *200
+				
+			autobus igual "B":
+				costoTotal = 20 *250
+				
+			autobus igual "C":
+				costoTotal = 20 *300	
+			
+		FinSegun
+				
+		
+	FinSi
+	// Realizado por Ignacio_Cavallo
+	
+	costoPasajero = costoTotal/cantidadPasajeros
+	Imprimir "El costo Total es de: " costoTotal
+	Imprimir "El costo individual es: " costoTotal
+		
+	
+
+	
+	
+	
+	
+	
+FinAlgoritmo
