@@ -1,0 +1,27 @@
+Algoritmo Fibonacci
+	leer cantidadNumeros
+	leer n1, n2
+	n1 = 0 
+	n2 = 1
+	cuenta = 0
+	
+	si cantidadNumeros<=1
+		Imprimir cantidadNumeros
+		
+	SiNo
+		Imprimir n1
+		Imprimir n2
+		Para i = 0 con paso 1 hasta cantidadNumeros
+			n3 = n1 +n2
+			n1 = n2
+			n3 = n2
+			Imprimir n3
+						
+		FinPara
+		
+			
+	
+		// Realizado por Ignacio Cavallo
+		
+	FinSi
+FinAlgoritmo

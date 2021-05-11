@@ -1,0 +1,19 @@
+Algoritmo mayorMenorCero
+	leer numero_n
+	leer cantidad_numeros
+	leer numMayor
+	leer numMenor
+	numMayor = 0
+	numMenor =0
+	
+	Para i= 0 Con Paso 1 hasta cantidad_numeros
+		si i>0
+			numMayor = numMayor+1
+		numMenor = numMenor + 1
+		FinSi
+	FinPara
+	
+	
+	
+	
+FinAlgoritmo

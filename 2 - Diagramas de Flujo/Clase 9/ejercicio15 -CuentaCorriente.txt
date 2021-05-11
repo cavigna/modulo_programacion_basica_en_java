@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	leer totalAhorrado
+	leer deposito
+	leer cantidadDeposito
+	
+	totalAhorrado = 0
+	
+	para i = 0 Con Paso 1 hasta cantidadDeposito
+		totalAhorrado = totalAhorrado + i
+	FinPara
+	
+	//Realizado por Ignacio Cavallo
+FinAlgoritmo

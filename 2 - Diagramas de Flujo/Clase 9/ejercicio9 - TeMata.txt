@@ -3,21 +3,21 @@ Algoritmo teMata_IgnacioCavallo
 	leer costoCita
 	leer costoTotal
 	segun numeroCita hacer
-		numeroCita>=3:
+		numeroCita<=3:
 			costoCita = numeroCita * 200
 			costoTotal = costoCita
 			
 		numeroCita<=5:
 			costoCita = numeroCita * 150
-			costoTotal = costoCita + 600
+			costoTotal = costoCita + ((numeroCita-4) * 150) +600
 			
 		numeroCita<=8:
 			costoCita = numeroCita * 100
-			costoTotal = costoCita + 1050
+			costoTotal = costoCita + ((numeroCita-6) * 150) +900
 			
 		numeroCita>=10:
 			costoCita = numeroCita * 100
-			costoTotal = costoCita + 1250
+			costoTotal = costoCita + ((numeroCita-9) * 150) +1200
 	FinSegun
 	
 	Imprimir "El valor de la cita es " costoCita

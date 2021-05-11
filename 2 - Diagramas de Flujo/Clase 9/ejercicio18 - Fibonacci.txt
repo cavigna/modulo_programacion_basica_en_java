@@ -1,0 +1,25 @@
+Algoritmo Fibonacci
+	leer cantidadNumeros
+	leer n1, n2
+	n1 = 0 
+	n2 = 1
+	cuenta = 0
+	
+	si cantidadNumeros<=1
+		Imprimir cantidadNumeros
+	SiNo
+		Imprimir n1
+		Imprimir n2
+		
+		Mientras cuenta<= cantidadNumeros
+			
+			n3 = n1 +n2
+			n1 = n2
+			n3 = n2
+			cuenta = cuenta + 1
+			Imprimir n3
+		FinMientras
+	// Realizado por Ignacio Cavallo
+		
+	FinSi
+FinAlgoritmo

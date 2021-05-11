@@ -1,0 +1,10 @@
+Algoritmo sumaDiez
+	leer suma
+	leer totalNumeros
+	
+	Para i=0 Hasta totalNumeros  Con Paso 1
+		suma = suma + i
+	FinPara
+	
+	//Realizado por Ignacio Cavallo
+FinAlgoritmo

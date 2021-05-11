@@ -1,0 +1,4 @@
+Algoritmo horasTrabajadas
+	
+	
+FinAlgoritmo

@@ -1,0 +1,17 @@
+Algoritmo edadPromedio
+	leer edad
+	leer cantidad_alumnos
+	Leer promedio
+	leer suma
+	suma = 0
+	
+	Para i=0 Con Paso 1 Hasta  cantidad_alumnos
+		suma = suma + edad
+		
+	FinPara
+	
+	promedio =suma/cantidad_alumnos
+
+	
+	
+FinAlgoritmo
