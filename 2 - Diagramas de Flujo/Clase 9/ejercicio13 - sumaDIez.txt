@@ -7,4 +7,5 @@ Algoritmo sumaDiez
 	FinPara
 	
 	//Realizado por Ignacio Cavallo
+	
 FinAlgoritmo

@@ -13,7 +13,7 @@ Algoritmo mayorMenorCero
 		FinSi
 	FinPara
 	
-	
+//Realizado por Ignacio Cavallo
 	
 	
 FinAlgoritmo

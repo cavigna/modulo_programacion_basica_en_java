@@ -1,3 +1,14 @@
-Algoritmo sin_titulo
+Algoritmo numerosPares
+	leer cantidadNumeros
+	
+	
+	para i = 0 Con Paso 1 hasta cantidadNumeros
+		si (i%2 == 0)
+			Imprimir i
+		FinSi
+		
+	FinPara
+	
+	//Realizado por IgnacioCavallo
 	
 FinAlgoritmo

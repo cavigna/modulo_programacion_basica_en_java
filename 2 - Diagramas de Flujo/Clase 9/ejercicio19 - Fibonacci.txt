@@ -1,4 +1,17 @@
-Algoritmo horasTrabajadas
+Algoritmo HorasTrabajadas
+	leer diasTrabajados
+	leer horasTrabajada 
+	leer sueldoDiario
+	leer sueldoTotal
+	
+	
+	para i = 0 con paso 1 hasta diasTrabajados
+		horasTrabajada = horasTrabajada + i
+		
+		
+	FinPara
+	
+	
 	
 	
 FinAlgoritmo
