@@ -1,0 +1,16 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¹øµûÿÿÿÿ
+k	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¾âŒüÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "prima".(”ìŠÉ
+T
+java:S1854"9Remove this useless assignment to local variable "prima".(ÁÙßúÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ù ƒ‘üÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(Ü‰×Á
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ÒñÏªøÿÿÿÿ
+J
+java:S6212$"/Declare this local variable with "var" instead.(²¾âŒüÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(¿€ŞÓ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(¡µÔ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(¼¹§ëùÿÿÿÿ

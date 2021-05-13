@@ -9,6 +9,11 @@ A ellos los importé en main.
 Hice algunos ejercicios adicionales.
 Aprendí a Usar plug ins in mi IDE.
 
+13/05
+Hicimos Ejercicios pasados, en  java. Como ya los había hecho por mi propia cuenta, decidí implementar el uso de
+Scanner como input. Utilicé metodos dentro de Main.
+
+
 
 
 

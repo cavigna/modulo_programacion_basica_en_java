@@ -1,0 +1,30 @@
+
+J
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ
+J
+java:S6212%"/Declare this local variable with "var" instead.(ù ƒ‘üÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(‹ÇÀİ
+E
+java:S6212'"/Declare this local variable with "var" instead.(‚Ûìƒ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ÑèàÒ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(‚®ºŒşÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ĞÛâï
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+E
+java:S62120"/Declare this local variable with "var" instead.(¬çöé
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ˆ²¼°
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(›óğ’
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(ÌÜß
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ì¥ÊÚÿÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(–§ò°
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ÏøšÌùÿÿÿÿ
+J
+java:S62128"/Declare this local variable with "var" instead.(ñøÒùÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(¬¯Šûÿÿÿÿ
+J
+java:S6212:"/Declare this local variable with "var" instead.(ÃşŞÃùÿÿÿÿ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(®ã¤„
+M	java:S106="9Replace this use of System.out or System.err by a logger.(½Æ®r
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(³ß´‡üÿÿÿÿ
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(îƒÉ‰
