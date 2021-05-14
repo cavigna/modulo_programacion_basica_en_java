@@ -13,6 +13,11 @@ Aprendí a Usar plug ins in mi IDE.
 Hicimos Ejercicios pasados, en  java. Como ya los había hecho por mi propia cuenta, decidí implementar el uso de
 Scanner como input. Utilicé metodos dentro de Main.
 
+13/05
+Pasamos algunos ejercicios a Java. 
+
+14/05
+Aprendí un poco sobre Arrays.
 
 
 
