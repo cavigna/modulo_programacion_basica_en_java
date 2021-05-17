@@ -10,8 +10,8 @@ public class Main {
         int sumaImpares = 0 , totalImpares = 0;
         for(int i =0 ; i<=totalNumeros; i++){
             Scanner scanner1 = new Scanner(System.in);
-                System.out.println("Ingrese" + i +"número: ");
-                int numero = scanner1.nextInt();
+            System.out.println("Ingrese" + i +"número: ");
+            int numero = scanner1.nextInt();
             if(numero%2==0){ sumaPares +=numero; totalPares+=1;}
             else{sumaImpares +=numero; totalImpares+=1;}
         }
