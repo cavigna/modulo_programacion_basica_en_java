@@ -1,37 +1,112 @@
-Clases Java
+# Parte 3 - Programacion en  Java
 
-11/05
+##  Clase 10  | 11/05
+
 Primeros Programas en Java
 
-12/05
+##  Clase 11  | 12/05
 Hicimos algunos ejercicios en Java. Cómo desafío personal, convertí los ejercicios en clases con métodos.
 A ellos los importé en main.
 Hice algunos ejercicios adicionales.
 Aprendí a Usar plug ins in mi IDE.
 
-13/05
+##  Clase 12 | 13/05
 Hicimos Ejercicios pasados, en  java. Como ya los había hecho por mi propia cuenta, decidí implementar el uso de
 Scanner como input. Utilicé metodos dentro de Main.
 
-13/05
-Pasamos algunos ejercicios a Java. 
+## En mi tiempo | 13/05
+Pasamos algunos ejercicios a Java.
 
-14/05
-Aprendí un poco sobre Arrays.
+## Clase 13 | 14/05
+Aprendí un poco sobre Arrays.</br>
 
-15/05
+## El fin de semana | 15/05
 Implementé una función lambda en Java!!!
-//int sumaPares = paImpa.stream().filter((a) -> a%2 == 0).mapToInt((a) -> a).sum();
+```java
+int sumaPares = paImpa.stream().filter((a) -> a%2 == 0).mapToInt((a) -> a).sum();
+```
 
-17/05
-En esta clase, se decidió hacer repaso. Por ello, aproveche el tiempo re haciendo algunos ejercecios. Por otra parte,
-como las arrays son  bien estrictas, descubrí arrayList como alternativa. Esta fué de suma utilidad, por
-que se asemejan  las List de Python.
+
+## Clase 15 | 17/05
+En esta clase, se decidió hacer repaso. Por ello, aproveche el tiempo re haciendo algunos ejercecios. </br>
+Por otra parte, como las arrays son  bien estrictas, descubrí arrayList como alternativa. Esta fué de suma utilidad, porque se asemejan  las List de Python.
+</br>
 Hice ejercicios propuestos por el profesor, pero le agregue cierta difiultad. Por ejemplo, un ejercicio, era el número
 mayor de N. Aparte de eso, propuese un método que permita  identificar el mayor O menor número.
 
+## Clase 18/05 - Clase 15**
+Hoy los compañeros revisaron algunos ejercicios Adeudados. Después el profesor, nos pidio 3 jercicios con loops y
+uno con switch. Por ello implementé los siguientes:
+
+1 - **Factorial** ==> 5! = 5* 3 * 2 * 1</br>
+```java
+    public static void factorial(int totalN) {
+        var acum = 1;
+        for (var i = 1; i <= totalN; i++) {
+            acum *= i;
+        }
+        System.out.println(totalN + "!" +
+                " = " + acum);
+    }
+```
 
 
+2 - **FizzBuzz** ==> en un rango de n numeros, si es divisble por 3, imprime Fizz
+                 si es divisible por 5 Buzz. Por ambos FizzBuzz</br>
+
+```java
+ public static void fizzBuzz(int totalN) {
+        for (var i = 1; i <= totalN; i++) {
+            if ((i % 3 == 0) && (i % 5 == 0)) {
+                System.out.println(i + " ==> FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println(i + " ==> Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println(i + " ==> Buzz");
+            } else {
+                System.out.println(i);
+            }
+        }
+
+    }
+```                
+3 - **Potenciado** ==>  Elevar un número por otro sin libreria
+```java
+public static void potencia2(int n1, int n2) {
+        var potenciaResultado = 1;
+        for (var i = 1; i <= n2; i++) {
+            potenciaResultado *= n1;
+        }
+        System.out.println(potenciaResultado);
+
+    }
+```
 
 
+4 - **Calculadora** ==> Toma dos números, un caractér como (+,-,*,/) y aplica la operación matemática.
+```java
+    public static void simpleCalc(int n1, int n2, char op) {
 
+        switch (op) {
+            case '+' -> System.out.println(n1 + " + " + n2 + " = " + (n1 + n2));
+            case '-' -> System.out.println(n1 + " - " + n2 + " = " + (n1 - n2));
+            case '*' -> System.out.println(n1 + " * " + n2 + " = " + (n1 * n2));
+            case '/' -> System.out.println(n1 + " * " + n2 + " = " + (1.0 * n1 / n2));
+        }
+
+
+    }
+
+```
+
+**Implementé mi primera función Void!. Ehhhh!!!**
+```java
+    public static void factorial(int totalN){
+        var acum =1;
+        for (var i=1; i<=totalN; i++){
+            acum *= i;
+        }
+        System.out.println( totalN + "!" +
+                " = " + acum);
+
+    ```

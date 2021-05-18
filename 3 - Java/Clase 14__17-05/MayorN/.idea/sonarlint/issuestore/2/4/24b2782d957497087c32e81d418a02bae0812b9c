@@ -1,0 +1,11 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÒãÑ†üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(êõ•¤úÿÿÿÿ
+J
+java:S62123"/Declare this local variable with "var" instead.(ù ƒ‘üÿÿÿÿ
+Q	java:S1252"<This block of commented-out lines of code should be removed.(Æ²ÿ…
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Ñ´Þúÿÿÿÿ
+E
+java:S62125"/Declare this local variable with "var" instead.(‹±Æ—
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(ûÆûÿÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(øÜ¦íùÿÿÿÿ

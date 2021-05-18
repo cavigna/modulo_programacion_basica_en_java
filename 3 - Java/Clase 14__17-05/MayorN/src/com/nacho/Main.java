@@ -34,6 +34,10 @@ public class Main {
 
         return maxoMin.equals("max") ? "El mayor número ingresado fué: " + Collections.max(numerosN):
                 "El menor número ingresado fué: " + Collections.min(numerosN);
+
+
+
+
     }
 
 
