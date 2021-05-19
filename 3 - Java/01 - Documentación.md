@@ -34,7 +34,7 @@ Por otra parte, como las arrays son  bien estrictas, descubrí arrayList como al
 Hice ejercicios propuestos por el profesor, pero le agregue cierta difiultad. Por ejemplo, un ejercicio, era el número
 mayor de N. Aparte de eso, propuese un método que permita  identificar el mayor O menor número.
 
-## Clase 18/05 - Clase 15**
+## Clase 16 | 18/05 
 Hoy los compañeros revisaron algunos ejercicios Adeudados. Después el profesor, nos pidio 3 jercicios con loops y
 uno con switch. Por ello implementé los siguientes:
 
@@ -109,4 +109,24 @@ public static void potencia2(int n1, int n2) {
         System.out.println( totalN + "!" +
                 " = " + acum);
 
-    ```
+```
+
+
+
+## Clase 16 | 19/05
+
+Hicimos dos ejercicios. El primero, una calucladora simple. Usé el código de la clase anterior y lo mejoré.</br>
+Aprendí un poco más sobre la librería **Math** de **Java**.</br>
+El otro ejercicio fué implementar un  cajero. Lo implementé como un objeto de clase, y practiqué un poco los *constructores*.
+```java
+public class CajeroBancario {
+    private double saldo;
+    private Scanner input = new Scanner(System.in);
+
+    public CajeroBancario(double saldo) {
+        this.saldo = saldo; // Constructor!!
+    }
+    public void imprimirSaldo() {
+        System.out.println("Su saldo es: " + this.saldo);
+    }
+```
