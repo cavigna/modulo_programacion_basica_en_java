@@ -1,0 +1,28 @@
+
+<	java:S131	""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(ê¥øÓÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ú«±ú
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¸ÈÉ‹þÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¥æ½ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëÔ”†ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ìîê”
+J
+java:S6212"/Declare this local variable with "var" instead.(°«¤½úÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ù ƒ‘üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(È©ƒ«
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼ú¸ß
+N	java:S106"9Replace this use of System.out or System.err by a logger.(È©ƒ«
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùÒÓùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(î¯Žžýÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(Œ…‰Ù
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(¬øé¡
+J
+java:S6212%"/Declare this local variable with "var" instead.(…É¸Øøÿÿÿÿ
+J
+java:S6212&"/Declare this local variable with "var" instead.(ò„ƒÙøÿÿÿÿ
+E
+java:S6212'"/Declare this local variable with "var" instead.(»ÇýÔ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(Û¡ô¢ýÿÿÿÿ

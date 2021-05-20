@@ -1,0 +1,23 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(üÍÆ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(„áµ“ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İúñ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(°ÀÃ,
+S	java:S106"9Replace this use of System.out or System.err by a logger.(òÛÖ™ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…ù…óşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»‚ëš
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Í§íÇøÿÿÿÿ
+M	java:S106&"9Replace this use of System.out or System.err by a logger.(şı³
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Ä‰˜Å
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(­šê£øÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(Å¹ºÙ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(ÙÉ‘
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(°Ïšµ
+>
+java:S6205O"(Remove this redundant block and "break".(›ûä·
+>
+java:S6205S"(Remove this redundant block and "break".(›ûä·
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(ÈÓ¿¸
+4
+java:S6205X"Remove this redundant "break".(›ûä·
+N	java:S106V"9Replace this use of System.out or System.err by a logger.(•²Ğ
