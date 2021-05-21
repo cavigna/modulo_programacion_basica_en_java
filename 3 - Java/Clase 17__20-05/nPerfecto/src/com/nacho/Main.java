@@ -8,14 +8,14 @@ public class Main {
 	var scanner = new Scanner(System.in);
         System.out.println("Escriba un n°: ");
         int numero = scanner.nextInt();
-    nPerfecto(numero);
+        nPerfecto(numero);
 
 
     }
 
     public static void nPerfecto(int n){
         int suma = 0;
-        for(int i = 1; i<n; i++){
+        for(int i = 1; i<=n/2; i++){ //==> Dividirlo evita muchos pasos
             if (n%i==0) {
                 suma += i;
             }

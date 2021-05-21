@@ -130,3 +130,11 @@ public class CajeroBancario {
         System.out.println("Su saldo es: " + this.saldo);
     }
 ```
+
+## Clase 17 | 20/05
+
+En la primera parte, hicimos un ejercicio que calculaba si es un número perfecto.</br>
+**Aprendí una forma de no iterar todos los valores ==> Dividir a n/2**</br>
+En la segunda parte, vimos Arrays. Hicimos algunos programas con relación a ellos.</br>
+En la tercera parte, hicimos una tarea grupal sobre algoritmos de ordenamiento y búsqueda </br>
+
