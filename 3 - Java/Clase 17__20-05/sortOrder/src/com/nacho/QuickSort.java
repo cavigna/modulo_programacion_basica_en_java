@@ -1,8 +1,8 @@
 package com.nacho;
 
-import java.text.MessageFormat;
+
 import java.util.Arrays;
-import java.util.Random;
+
 
 public class QuickSort {
     public void quickSort(int [] array, int izquierda, int derecha){
