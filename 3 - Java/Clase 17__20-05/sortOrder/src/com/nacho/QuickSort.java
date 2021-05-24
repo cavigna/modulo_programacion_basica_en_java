@@ -168,6 +168,7 @@ public class QuickSort {
                 Array = [15, 23, -523, 8, 42, 321, 1786, 95, 63]
 
             y volvemos a iterar nuevamente. Hasta que no haya un valor MAYOR al pivote.
+
              */
             System.out.println();
             System.out.println("*** Se agotó búsqueda.  ***");
