@@ -9,11 +9,18 @@ public class Main {
 	int [] array = {15,23,95,8,63,321,1786,-523,42};
 	var quickSort = new QuickSort();
 	var binarySearch = new BinarySearch();
+	var insertion_Sort = new InsertionSort();
 	quickSort.quickSort(array, 0, array.length-1);
 		System.out.println(Arrays.toString(array));
-		binarySearch.binarySearch(array, 321, 0, array.length-1);
-
+//		binarySearch.binarySearch(array, 321, 0, array.length-1);
+//
+//	int [] array2 = {115,23,95,8,63,321,1786,-523,42};
+//		System.out.println("*** Insertion Sort ***");
+//	insertion_Sort.insertionSort(array2, 0);
+//
+//		System.out.println(Arrays.toString(array2));
     }
+
 }
 /*
 				*-*-*-*-*-*-*-* RESULTADO *-*-*-*-*-*-
