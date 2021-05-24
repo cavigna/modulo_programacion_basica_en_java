@@ -1,13 +1,13 @@
 # Parte 4 - Programacion en  Java
 
-##  Clase 18  | 24/05
+## Clase 18  | 24/05
 
-Empezamos con **Programación Orientada a Objetos**.</br> 
+Empezamos con **Programación Orientada a Objetos**.</br></br> 
 Por mi cuenta investigué como funcionaban los constructores.</br>
 Los ejercicios de hoy, me plantearon el desafió de pensar creativamente en aplciar una clase.
 </br>
 
-Después de mucha reflexión puedo afirmar energicamente que estoy particularmente orgulloso de la clase *Tamagochi* de mi autoria:
+Después de mucha reflexión puedo afirmar *enérgicamente* que estoy particularmente orgulloso de mi creación  **_*Rubén el Tamagochi*_**:
 
 
 ``` java
@@ -190,6 +190,8 @@ Tengo Hambre
 Tengo sueño
 */
 
+
 ```
 
-## Clase 21  | 24/05
+
+
