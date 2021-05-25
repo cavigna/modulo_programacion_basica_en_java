@@ -1,12 +1,16 @@
 # Parte 4 - Programacion en  Java
 ---- 
-## Clase 19  | 25/05
 
-###Conceptos Aprendidos:  
+## Clase 19  | 25/05 - Día de la Toalla!
+
+### Conceptos Aprendidos:  
+
 *En Clase:*
+
 * Métodos Constructores
 * Sobre Carga de Métodos
 * Diferencia entre :
+
  ```java
  public
  private
@@ -21,7 +25,7 @@
   - Emojis :rocket: 
 
 
-####Primera parte  
+#### Primera parte  
 
 Continuamos con **Programación Orientada a Objetos**.</br></br> 
 Iniciamos con los métodos constructores, dando lugar a nuevos aprendizajes, en especial la *sobrecarga de métodos*. A diferencia de Python, en Java se pueden crear muchos métodos constructores para diferentes parámetros. Por ejemplo: </br>
