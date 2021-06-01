@@ -11,7 +11,7 @@ public class Electrodomestico {
     private double consumoXDía;
 
 
-    private boolean estaEncendido = true;
+    private boolean estaEncendido;
 
     public Electrodomestico(){}
 
@@ -24,6 +24,7 @@ public class Electrodomestico {
         this.consumo = consumo;
         this.consumoKw = consumo/1000;
         this.consumoXDía = 0;
+        this.estaEncendido = true;
     }
 
     public Electrodomestico(String marca, String modelo ){
@@ -47,12 +48,12 @@ public class Electrodomestico {
 
     public void consumoDiario(double tiempoUso){
         this.consumoXDía = consumoKw * tiempoUso;
-        System.out.println("Consumo diario es de: " + this.consumoXDía);
+        System.out.println("Consumo diario es de: " + this.consumoXDía + " Kw/h");
     }
     public void consumoMensual(int cantDias){
         double totalMes = consumoXDía * cantDias;
 
-        System.out.println("Consumo diario es de: " + totalMes);
+        System.out.println("Consumo mensual es de: " + totalMes + " Kw/h");
 
     }
 
