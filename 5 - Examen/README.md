@@ -9,18 +9,18 @@ Siguiendo mi línea de trabajo, explicaré como abordé el siguiente ejercicio:
 </br>  
 Algunas consideraciones previas:  
 
-* Intentare resumir al mínimo mi desarrollo, pero si estan interesados en ver toda mi implemetnación, la pueden consultar [aquí](link). El código continua si es que ven lo siguiente:
+* Intentare resumir al mínimo mi desarrollo, pero si estan interesados en ver toda mi implemetnación, la pueden consultar [aquí](https://github.com/cavigna/modulo_programacion_basica_en_java/tree/main/5%20-%20Examen/TiendaBodega/src/com/nacho). El código continua si es que ven lo siguiente:
 
  ```java
                 /* ................ */
 ```
 
 * En el resultado el comentario /**/ muestra el resultado del terminal.
-* El diagrama está por [acá](##diagrama). O por acá si lo querés ver más [grande]().
+* El diagrama está por [acá](##diagrama). O por acá si lo querés ver más [grande](https://github.com/cavigna/modulo_programacion_basica_en_java/blob/a3ca91fedcd63e79ecbc5fc7d457f1bda9ced53e/5%20-%20Examen/imagenes/DiagramaIgnacio.png).
 * A continuación se puede ver el [resultado](##resultado). 
 * Date una vuelta por acá que está el [desarrollo.](##desarrollo)
 * Esta presentación hace una serie de supuestos o  simplificaciones como por ejemplo:  
-  * El método de pago es efectivo.
+  * El método de pago es efectivo.	    
   * Supone que los comprobantes serán usados una vez.
   * El uso de el listado de productos en la bodega es funcional, la implenetación se debe desarrollar en mayor profundidad.
   * Me gustaría implementar un HasMap con todos los productos.
