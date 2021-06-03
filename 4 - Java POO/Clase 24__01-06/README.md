@@ -62,11 +62,7 @@ Se retomó el ejercicio dejado como tarea, ya que muchos de los compañeors no l
 
 ### Segunda Parte.
 Abordamos el método S.O.L.I.D. y lo que significa requetiemientos. A su vez, se nos explicó como se diagrama de forma visual una clase. Esta es una implemetnación UML  de el ejercicio anterior.![Diagrama Persona](./DiagramaPersona.png)
-```java
 
-
-
-```
 
 ### Persona
 
