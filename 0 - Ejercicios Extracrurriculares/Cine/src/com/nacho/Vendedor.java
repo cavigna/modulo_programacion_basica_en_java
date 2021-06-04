@@ -1,6 +1,6 @@
 package com.nacho;
 
-import java.sql.SQLOutput;
+
 
 public class Vendedor extends Persona {
     private int cantEntradasVendidas;
@@ -19,7 +19,7 @@ public class Vendedor extends Persona {
         if(checkEdad){
 
         }else{
-            System.out.println("Ud no tiene la edad mínima para el evento");
+            System.out.println("Ud no tiene la edad mínima para el evento"); 
         }
 
 

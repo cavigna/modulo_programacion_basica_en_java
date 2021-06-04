@@ -20,7 +20,7 @@ public abstract class Persona {
 
 
     public String getNombre() {
-        return nombre;
+        return nombre; 
     }
 
     public void setNombre(String nombre) {
