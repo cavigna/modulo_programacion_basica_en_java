@@ -2,8 +2,11 @@ package com.nacho;
 
 public class EntradaVIP extends EntradaRegular{
     private boolean retiroRegalo =false;
-    public EntradaVIP(int numero, Cliente cliente, Vendedor vendedor){
-        super(numero, cliente, vendedor);
+    public EntradaVIP(int numero){
+        super(numero);        
+    }
+    public EntradaVIP(int numero, Cliente cliente, String nombreVendedor){
+        super(numero, cliente, nombreVendedor);
     }
 
     public boolean isRetiroRegalo() {
@@ -18,4 +21,6 @@ public class EntradaVIP extends EntradaRegular{
             System.out.println("Ya se retiró el reglalo para esta cuenta!");
         }
     }
+
+
 }

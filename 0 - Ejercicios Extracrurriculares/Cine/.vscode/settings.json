@@ -1,5 +1,14 @@
 {
-    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorTheme": "Omni",
     "editor.fontLigatures": true,
-    "editor.fontFamily": "'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace, Roboto"
+    "editor.fontFamily": "'Victor Mono',  'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace, Roboto",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.vscode": true
+    },
+    "editor.cursorWidth": 3,
+    "editor.cursorSmoothCaretAnimation": true
 }

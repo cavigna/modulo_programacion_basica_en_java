@@ -13,8 +13,6 @@ public abstract class Persona {
         this.nombre = nombre;
         this.rut = rut;
         this.birthDate = birthDate;
-
-
     }
 
 

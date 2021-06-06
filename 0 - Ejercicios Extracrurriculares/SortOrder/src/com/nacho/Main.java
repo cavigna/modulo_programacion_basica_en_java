@@ -14,7 +14,7 @@ public class Main {
 	int [] array2 = {115,23,95,8,63,321,-523,42};
 		System.out.println("*** Insertion Sort ***");
 	insertion_Sort.insertionSort(array2, 0);
-/
+
     }
 
 }

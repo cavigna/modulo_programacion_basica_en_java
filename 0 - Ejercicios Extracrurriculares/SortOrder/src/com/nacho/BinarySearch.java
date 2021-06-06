@@ -3,8 +3,8 @@ package com.nacho;
 import java.util.Arrays;
 
 public class BinarySearch {
-    public static void binarySearch(int [] array, int valor, int  inicio, int fin){
-        if (inicio>fin) {
+    public static void binarySearch(int[] array, int valor, int inicio, int fin) {
+        if (inicio > fin) {
             System.out.println();
             System.out.println("No se encontró el valor " + valor + " en el Array");
         } else {
