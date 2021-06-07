@@ -16,12 +16,14 @@ public class Venta {
 
     //2.
     private static boolean checkNumAsiento(int num, Evento evento) {
-        var tf = false;
+        var tf = true;
         for (Entrada e : evento.getEntradasVendidas()) {
             if (num == e.getNumeroAsiento()) {
-                tf = true;
+
                 System.out.println("Este Asiento no está Disponible.");
+                tf = false;
                 break;
+
             }
         }
         return tf;
@@ -30,12 +32,13 @@ public class Venta {
     private static boolean checkVenta(Evento evento, Cliente cliente, int numeroAsiento){
         boolean respuesta = false;
         if(checkEdad(evento, cliente)){ // Edad
-            respuesta= true;
+
             if(checkNumAsiento(numeroAsiento, evento)){ // Num Asiento
                 respuesta = true;
             }
         }else {
-            System.out.println("Problema Edad");
+            System.out.println(cliente.getNombre() + " Ud tiene: " + cliente.getEdad());
+            System.out.println("Ud. no cumple la edad mínima de: " + evento.getEdadMinima() );
 
         }return respuesta;
     }
@@ -44,19 +47,24 @@ public class Venta {
         var ventaOk = checkVenta(evento, cliente, numeroAsiento);
         if (ventaOk) {
             if (!vip) {
-                evento.agregarEntradaVendida(new Entrada(evento.getPrecio(),
-                        numeroAsiento, cliente, vendedor));
+                var entradaNormal =new Entrada(evento.getPrecio(),
+                        numeroAsiento, cliente, vendedor);
+                evento.agregarEntradaVendida(entradaNormal);
                 vendedor.ventaNormal();
+                cliente.setEntrada(entradaNormal);
+                System.out.println("Entrada Vendida! ");
+                System.out.println("Número de Asiento: " + entradaNormal.getNumeroAsiento() +
+                        " de " + entradaNormal.getCliente().getNombre());
             } else {
-                evento.agregarEntradaVendida(new EntradaVip(evento.getPrecio(),
-                        numeroAsiento, cliente, vendedor));
+                var entradaVip = new EntradaVip(evento.getPrecio(),
+                        numeroAsiento, cliente, vendedor);
+                evento.agregarEntradaVendida(entradaVip);
                 vendedor.ventaVip();
+                cliente.setEntrada(entradaVip);
+                System.out.println("Número de Asiento: " + entradaVip.getNumeroAsiento() +
+                        " de " + entradaVip.getCliente().getNombre());
             }
-            } else {
-            System.out.println("Hubo un problema!");
-
-
-        }
+            }
 
     }
 

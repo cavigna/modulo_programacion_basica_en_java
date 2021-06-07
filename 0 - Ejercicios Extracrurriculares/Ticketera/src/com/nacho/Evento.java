@@ -8,17 +8,16 @@ public class Evento {
     private double precio;
     private double precioVip;
     private boolean enCurso;
-    //private int cantEntradas;
     private ArrayList<Entrada> entradasVendidas;
     private ArrayList<Entrada> entradasUsadas;
 
-    public Evento(String nombre, int edadMinima, double precio, double precioVip) {
+    public Evento(String nombre, int edadMinima, double precio) {
         this.nombre = nombre;
         this.edadMinima = edadMinima;
         this.entradasVendidas = new ArrayList<>();
         this.entradasUsadas = new ArrayList<>();
         this.precio = precio;
-        this.precioVip = precioVip;
+        this.precioVip = precio*1.5;
         this.enCurso = false;
 
 
@@ -35,14 +34,20 @@ public class Evento {
     }
 
     public void ingresoEvento(Entrada entrada){
-        if(this.enCurso) {
-            if(!entradasUsadas.contains(entrada)){
-                System.out.printf("Bienvenido %s al evento %s, ud. puede pasar",
-                        entrada.getCliente().getNombre(), this.nombre);
-                entradasUsadas.add(entrada);
-            }else{
+        if(isEnCurso()) {
+            if(entradasUsadas.contains(entrada)){
                 System.out.println("La entrada fue usada!");
+
+            }else{
+                System.out.println();
+                System.out.println("*** Ingreso al " + this.nombre + "***");
+                System.out.printf("Bienvenido %s al evento %s, ud. puede pasar%n",
+                        entrada.getCliente().getNombre(), this.nombre);
+                System.out.println();
+                entradasUsadas.add(entrada);
             }
+        }else {
+            System.out.println(this.nombre + " no ha comenzado!");
         }
 
     }
@@ -68,14 +73,20 @@ public class Evento {
     public ArrayList<Entrada> getEntradasVendidas() {
         return entradasVendidas;
     }
+
+    public void listadoEntradas(){
+        for(Entrada entrada:entradasVendidas){
+            System.out.println();
+            System.out.println("Entrada número: " + entrada.getNumeroAsiento());
+            System.out.println("Cliente: " + entrada.getCliente().getNombre());
+            System.out.println("Vendedor: " + entrada.getVendedor().getNombre());
+            System.out.println("");
+        }
+    }
+
+    public boolean isEnCurso() {
+        return enCurso;
+    }
 }
 
 
-//    public void generarEntradas(int cantidadEntradas, Entrada entrada, EntradaVip entradaVip){
-//        int numeroAsiento = 1;
-//        int porcentajeNormal = (int) (cantidadEntradas * .8);
-//        int porcentajeVip = (int)(cantidadEntradas *.20);
-//        for(var i = 0; i<= porcentajeNormal; i++){
-//            entradas[i] = new Entrada();
-//        }
-//    }
